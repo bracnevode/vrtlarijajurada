@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Quicksand&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>Vrtlarija Jurada</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top pt-2 pb-2 shadow-sm">
+    <div class="container">
+      <a class="navbar-brand px-3" href="#"><img src="slike\logo.svg" alt="Logo" width="150px" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#početna">Početna</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#onama">O nama</a>
+          </li>
+          <li>
+          <div class="dropdownmeni">
+            <a class="nav-link dropdown-toggle" id="navbardropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#katalog">Katalog
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="sadrzaj" aria-labelledby="dropdown">
+                <a href="galerija.html">Galerija</a>
+            </div>
+        </div>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#usluge">Popis usluga</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#kontakt">Kontakt</a>
+          </li>
+        </div>
+        <div class="navbar-nav ms-auto">
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#vrijeme">Radno vrijeme</a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide mb-6 h-100" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      
+    </div>
+    <div class="carousel-inner h-100">
+      <div class="carousel-item h-100 active">
+        <img class="w-100 h-100 object-fit-cover" src="slike\FB_IMG_1739719235417.jpg" alt="" />
+        <div class="container h-100">
+          <div class="carousel-caption first d-flex align-items-center h-100 text-center">
+            <div class="d-flex flex-column">
+              <h1 class="text-center text-md-start pb-3 display-2 lh-1">
+                Prepustite svom vrtu da zablista uz nas!
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item h-100">
+        <img class="w-100 h-100 object-fit-cover" src="slike\IMG-01eaef674be543257197ada0b656b89e-V edit copy.jpg" alt="" />
+        <div class="container h-100">
+          <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+            <div class="d-flex flex-column">
+              <h1 class="pb-3 display-3 lh-2 text-center">
+                Moj vrt je moje najljepše remek djelo
+              </h1>
+              <h2 class="pb-3 display-3 lh-2 text-right">
+                -Claude Monet
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Prethodni</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Sljedeći</span>
+    </button>
+  </div>
+
+  <div class="container" id="onama">
+    <div class="row my-5 align-items-center">
+      <div class="d-none d-md-block col-md-6 col-lg-4 change-hover">
+        <picture>
+          <source media="(min-width:992px)" srcset="slike\FB_IMG_1739719245043.jpg" />
+          <img class="object-fit-cover w-100" src="slike\FB_IMG_1739719245043.jpg"/>
+        </picture>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-8">
+        <h2 class="pb-3" id="katalog">O nama</h2>
+        <p>
+        Nudimo usluge vezane uz informacije i brigu vašega cvijeća te korisne alate za održavanje njihove ljepote.
+        Ako želite da vaš vrt postane pravi zeleni raj, posjetite nas i otkrijte najljepše cvjetove koji mogu dovest ljepotu u okolinu vašeg doma.
+        </p>
+      </div>
+    </div>
+    <div class="row row-gutter mt-5 justify-content-around align-items-stretch">
+      <div class="col-sm-12 col-md-6 text-center">
+        <h2>Katalog</h2>
+          <p>
+            Naš katalog nudi bogatstvo cvijeća za sva četiri godišnja doba, omogućavajući vam da vaš vrt bude ukrašen kroz cijelu godinu.<br>
+            <a href="galerija.html">
+                <button>Galerija</button>
+            </a>
+        </div>
+
+        <div class="row row-gutter mt-5 mb-5 text-center" id="usluge">
+          <h2>Popis usluga</h2>
+          
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="card border border-0 h-100">
+           
+            <div class="card-body">
+              <h4 class="fw-bold text-center">Nabava sjemenki</h4>
+              <p class="card-text text-center">
+                Nudimo širok asortiman kvalitetnih sjemenki za vrt koji i mi sami koristimo pri uređivanju vrtova.
+                Cilj je omogućiti ljubiteljima vrtlarenja jednostavan pristup provjerenim sjemenkama koje jamče ljepotu.
+                <br>Sjemenke možete nabaviti <a href="https://www.bauhaus.hr/sjeme-za-cvijece/c/10001264">Ovdje</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="card border border-0 h-100">
+            
+            <div class="card-body">
+              <h4 class="fw-bold text-center">Uređivanje vrta</h4>
+              <p class="card-text text-center">
+                Usluga uređivanja vrta uključuje planiranje, dizajn i održavanje vanjskih prostora kako bi izledali estetski privlačno. 
+                U terminu konzultacija dogovorimo dizajn i plan vašeg vrta te nakon dogovorimo termin sadnje. Cilj je održati ambijent vašega vrta tako da tokom perioda sadnje podučavamo i vas načinima brige za vaše biljke.
+              
+              </p>
+            </div>
+          </div>
+        </div>
+        <video style="width: 50%; height: auto;" controls>
+          <source src="slike\zavrsniv.mp4" type="video/mp4" />
+          Vaš pretraživač ne podržava video sadržaj.
+        </video>
+      </div>
+    </div>    
+
+    <div class="container" id="kontakt">
+        <div class="row mt-5 align-items-center justify-content-center"> 
+          <div class="col-sm-12 col-md-6 col-lg-6 text-center"> 
+            <h3 class="pb-3 fw-bold" >Kontaktirajte nas</h3>
+            <p class="mb-1">Katuri 14, Labin</p>
+            <p class="mb-1">Broj telefona: +385 92 199 0161</p>
+            <p class="mb-3">E-mail: <a href="mailto:vrtlarijajurada@gmail.com">vrtlarijajurada@gmail.com</a></p>
+            <h3 class="mb-1 fw-bold">Radno vrijeme</h3>
+            <div class="d-flex gap-5 justify-content-center"> 
+              <div id="vrijeme">
+                <p class="pb-3">
+                  Od ponedjeljka do petka:<br>
+                  8:00-18:00
+                </p>
+              </div>
+            </div>
+          </div>
+        
+      
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11265.820364261952!2d14.111494626876752!3d45.09684198631804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47634933ddae5f67%3A0x3cad9d756dcc598e!2sKaturi%2014%2C%2052220%2C%20Labin!5e0!3m2!1sen!2shr!4v1739729214185!5m2!1sen!2shr" width="100%" height="400" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
